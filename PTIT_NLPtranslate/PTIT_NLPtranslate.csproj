@@ -93,7 +93,6 @@
     <Compile Include="menu_Language.Designer.cs">
       <DependentUpon>menu_Language.cs</DependentUpon>
     </Compile>
-    <Compile Include="testgithub.cs" />
     <Compile Include="Translate_Interface.cs">
       <SubType>Form</SubType>
     </Compile>
