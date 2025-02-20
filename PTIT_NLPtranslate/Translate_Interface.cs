@@ -6,12 +6,14 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Net;
+using System.Speech.Synthesis;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
 using System.Web;
 using System.Windows.Forms;
-
+using Google.Cloud.TextToSpeech.V1;
+using System.IO;
 namespace PTIT_NLPtranslate
 {
     public partial class Translate_Interface : Form
@@ -180,6 +182,17 @@ namespace PTIT_NLPtranslate
             {
                 Clipboard.SetText(txt_Translated.Text);
             }
+        }
+
+        private async void ReadText(string text, string language)
+        {
+
+        }
+
+
+        private void guna2PictureBox4_Click(object sender, EventArgs e)
+        {
+            //nơi đây là code click vô cho đọc txt_Translated.Text
         }
     }
 }

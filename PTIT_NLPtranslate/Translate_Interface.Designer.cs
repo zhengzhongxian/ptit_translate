@@ -42,6 +42,7 @@
             this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2ControlBox1 = new Guna.UI2.WinForms.Guna2ControlBox();
+            this.labelfalse = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
@@ -258,12 +259,23 @@
             this.guna2ControlBox1.Size = new System.Drawing.Size(45, 29);
             this.guna2ControlBox1.TabIndex = 45;
             // 
+            // labelfalse
+            // 
+            this.labelfalse.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelfalse.ForeColor = System.Drawing.Color.DarkGray;
+            this.labelfalse.Location = new System.Drawing.Point(415, 783);
+            this.labelfalse.Name = "labelfalse";
+            this.labelfalse.Size = new System.Drawing.Size(435, 23);
+            this.labelfalse.TabIndex = 46;
+            this.labelfalse.Text = "Hội doanh nhân thành đạt - Copyright © All Rights Reserved";
+            // 
             // Translate_Interface
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(108)))), ((int)(((byte)(51)))), ((int)(((byte)(75)))));
-            this.ClientSize = new System.Drawing.Size(851, 746);
+            this.ClientSize = new System.Drawing.Size(851, 815);
+            this.Controls.Add(this.labelfalse);
             this.Controls.Add(this.guna2ControlBox1);
             this.Controls.Add(this.guna2HtmlLabel1);
             this.Controls.Add(this.guna2PictureBox3);
@@ -303,6 +315,7 @@
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox3;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
         private Guna.UI2.WinForms.Guna2ControlBox guna2ControlBox1;
+        private System.Windows.Forms.Label labelfalse;
     }
 }
 
